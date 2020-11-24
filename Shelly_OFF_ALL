@@ -7,3 +7,4 @@ curl --silent http://10.202.255.252/relay/0?turn=off |jq .ison
 #Prise .253
 curl --silent http://10.202.255.253/relay/0?turn=off |jq .ison
 
+#Permet d'éteindre les prises en même temps
