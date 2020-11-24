@@ -1,3 +1,4 @@
 #!/bin/bash
 
-curl --silent http://10.202.255.252/meter/0 |jq .power
+mosquitto_sub -h 10.202.0.65 -t shellies/shellyplug-s-6A64DB/relay/0/power -C 1
+
